@@ -14,7 +14,7 @@ public class CalculadoraApp extends Application {
 		CalculadoraApp.primaryStage = primaryStage;
 		controller = new Controller();
 		
-		primaryStage.setTitle("Enviar email");
+		primaryStage.setTitle("Calculadora");
 		primaryStage.setScene(new Scene(controller.getView()));
 		primaryStage.show();
 	}
